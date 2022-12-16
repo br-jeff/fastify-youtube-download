@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  api:
+    working_dir: /app
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - 8080:8080
+    command: sh -c "npm install && npm run start"
+    environment:
+      NODE_ENV: dev
+      PORT: 8080

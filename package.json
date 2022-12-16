@@ -1,0 +1,34 @@
+{
+  "name": "fastify-youtube-download",
+  "version": "1.0.0",
+  "description": "test fastify and working with streams",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --inspect=0.0.0.0 -r @swc-node/register ./src/infra/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalavh/fastify-youtube-download.git"
+  },
+  "keywords": [
+    "nodejs",
+    "fastify",
+    "stream"
+  ],
+  "author": "jefferson ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalavh/fastify-youtube-download/issues"
+  },
+  "homepage": "https://github.com/kalavh/fastify-youtube-download#readme",
+  "dependencies": {
+    "fastify": "^4.10.2",
+    "fastify-decorators": "^3.15.0",
+    "swc": "^1.0.11"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.5.4",
+    "@types/node": "^18.11.15"
+  }
+}
